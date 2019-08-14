@@ -4,14 +4,11 @@ import PropTypes from 'prop-types';
 function PhoneBook({ name, phone, relation }) {
   return (
     <dl>
-      <dt>Name:</dt>
-      <dd>{name}</dd>
+      <dt>Name: {name}</dt>
 
-      <dt>Phone:</dt>
-      <dd>{phone}</dd>
-
-      <dt>Relation:</dt>
-      <dd>{relation}</dd>
+      <dt>Phone: {phone}</dt>
+      
+      <dt>Relation: {relation}</dt>
     </dl>
   );
 }
